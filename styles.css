@@ -12,10 +12,23 @@
    padding: 20px;
 }
 
-.center {
-    width: 500px;
+div.center {
+    width: 40%;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 992px) {
+    div.center {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    div.center {
+      width: 100%;
+    }
+  }
 
 h2.center-title {
     width: 100%;
