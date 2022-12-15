@@ -1,3 +1,5 @@
+// This code toggle on button click
+
 let group1 = document.getElementById("group1");
 let group2 = document.getElementById("group2");
 
